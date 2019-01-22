@@ -50,7 +50,7 @@ Column `venue` is a custom name for the conference or journal, `year` should be 
 This identifier can be extracted from the DBLP-URL as follows.
 In this example, we extract `conf/sigsoft/fse2018` as the identifier of the ESEC/FSE 2018 proceedings:
  
-![dblp-identifier](doc/dblp-identifier.png "DBLP Identifier")
+[![dblp-identifier](doc/dblp-identifier.png "DBLP Identifier")](https://dblp.org/db/conf/sigsoft/fse2018.html)
 
 An examplary input file can be found [here](input/venues.csv):
 
