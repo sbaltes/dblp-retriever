@@ -1,0 +1,34 @@
+######################
+# OS generated files #
+######################
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+#Icon?
+ehthumbs.db
+Thumbs.db
+
+##########################
+# Webstorm/IntelliJ IDEA #
+##########################
+.idea/
+*.iml
+
+##########
+# Python #
+##########
+# Byte-compiled / optimized / DLL files
+__pycache__/
+#*.py[cod]
+*$py.class
+
+########
+# Misc #
+########
+#input/
+#output/
+*.log
+env/
