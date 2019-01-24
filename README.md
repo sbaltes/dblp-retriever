@@ -46,10 +46,10 @@ Call without parameters to get information about possible parameters:
 
 As input, the tool expects a CSV file with the following three columns: `venue`, `year`, and `identifier`.
 Column `venue` is a custom name for the conference or journal, `year` should be self-explanatory, and `identifier` is the DBLP identifier of a particular journal volume or conference proceeding. 
- 
+
 This identifier can be extracted from the DBLP-URL as follows.
 In this example, we extract `conf/sigsoft/fse2018` as the identifier of the ESEC/FSE 2018 proceedings:
- 
+
 [![dblp-identifier](doc/dblp-identifier.png "DBLP Identifier")](https://dblp.org/db/conf/sigsoft/fse2018.html)
 
 An examplary input file can be found [here](input/venues.csv):
@@ -78,13 +78,13 @@ The tool logs the retrieval process:
     2019-01-22 10:53:07,530 dblp-retriever_logger INFO: Successfully parsed TOC of venue: journals/tosem/tosem27
     2019-01-22 10:53:07,532 dblp-retriever_logger INFO: Exporting papers to output/venues.csv...
     2019-01-22 10:53:07,548 dblp-retriever_logger INFO: 1564 papers have been exported.
-    
+
 And writes to [retrieved data](output/venues.csv) to the configured output directory:
 
 | venue | year | identifier             | heading                              | title                                                                                                              | authors                                                                        | pages      | length | electronic_edition                         |
 |-------|------|------------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------|--------|--------------------------------------------|
 | ICSE  | 2014 | conf/icse/icse2014     | Perspectives on Software Engineering | Cowboys, ankle sprains, and keepers of quality: how is video game development different from software development? | Emerson R. Murphy-Hill; Thomas Zimmermann; Nachiappan Nagappan                 | 1-11       | 11     | https://doi.org/10.1145/2568225.2568226    |
-| …     | …    | …                      | …                                    | …                                                                                                                  | …
+| …     | …    | …                      | …                                    | …                                                                                                                  | …                                                                              | …          | …      | …                                          |
 | ICSE  | 2014 | conf/icse/icse2014     | Modeling                             | TradeMaker: automated dynamic analysis of synthesized tradespaces.                                                 | Hamid Bagheri; Chong Tang; Kevin J. Sullivan                                   | 106-116    | 11     | https://doi.org/10.1145/2568225.2568291    |
 | …     | …    | …                      | …                                    | …                                                                                                                  | …                                                                              | …          | …      | …                                          |
 | TOSEM | 2018 | journals/tosem/tosem27 | Volume 27, Number 4, November 2018   | Variability-Aware Static Analysis at Scale: An Empirical Study.                                                    | Alexander von Rhein; Jörg Liebig; Andreas Janker; Christian Kästner; Sven Apel | 18:1-18:33 | 33     | https://dl.acm.org/citation.cfm?id=3280986 |
