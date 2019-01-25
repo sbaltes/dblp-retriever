@@ -1,8 +1,6 @@
 import argparse
 import logging
 
-# get global logger
-from dblp.venue import Venue
 from dblp.venue_list import VenueList
 
 logger = logging.getLogger('dblp-retriever_logger')
@@ -39,14 +37,11 @@ def main():
     parser = get_argument_parser()
     args = parser.parse_args()
 
-    # read venue identifiers from CSV
+    # process venues
     venue_list = VenueList()
     venue_list.read_from_csv(args.input_file, args.delimiter)
-
-    # retrieve papers
     venue_list.retrieve_papers()
-
-    # write entities to CSV file
+    venue_list.validate_page_ranges()
     venue_list.write_to_csv(args.output_dir, args.delimiter)
 
 

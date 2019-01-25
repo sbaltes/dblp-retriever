@@ -1,7 +1,7 @@
 # dblp-retriever
 
 Retrieve paper metadata from conference proceedings and journals indexed in DBLP.
-Currently, retrieval of the following properties is suppoerted:
+Currently, retrieval of the following properties is supported:
 
 * paper title
 * authors
@@ -10,6 +10,7 @@ Currently, retrieval of the following properties is suppoerted:
 * paper length
 * link to electronic edition of paper
 
+The tool validates the page ranges and adds a log message to column `comment` in case possible inconsistencies are detected.
 Tested with ICSE, FSE, TSE, and TOSEM 2014-2018.
 
 # Setup

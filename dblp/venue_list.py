@@ -1,11 +1,8 @@
 import codecs
 import csv
 import logging
-
-# get root logger
 import os
 
-from dblp import paper
 from dblp.paper import Paper
 from dblp.venue import Venue
 from util.exceptions import IllegalArgumentError
@@ -45,7 +42,9 @@ class VenueList(object):
             # read CSV file
             for row in reader:
                 if row:
-                    self.venues.append(Venue(row[venue_index], row[year_index], row[identifier_index]))
+                    self.venues.append(
+                        Venue(row[venue_index], row[year_index], row[identifier_index])
+                    )
                 else:
                     raise IllegalArgumentError("Wrong CSV format.")
 
@@ -55,6 +54,10 @@ class VenueList(object):
     def retrieve_papers(self):
         for venue in self.venues:
             venue.retrieve_papers()
+
+    def validate_page_ranges(self):
+        for venue in self.venues:
+            venue.validate_page_ranges()
 
     def write_to_csv(self, output_dir, delimiter):
         """

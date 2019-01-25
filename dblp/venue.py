@@ -1,21 +1,20 @@
 import logging
-
-# get root logger
 import requests
-from lxml import html
 
+from lxml import html
 from dblp.paper import Paper
 
 logger = logging.getLogger("dblp-retriever_logger")
 
 
 class Venue(object):
-    """ DBLP venue. """
+    """ A venue on DBLP. """
 
     def __init__(self, name, year, identifier):
         self.name = str(name)
         self.year = str(year)
         self.identifier = str(identifier)
+
         self.uri = "https://dblp.org/db/" + self.identifier + ".html"
 
         self.papers = []
@@ -29,7 +28,7 @@ class Venue(object):
             response = self.session.get(self.uri)
 
             if response.ok:
-                logger.info("Successfully retrieved TOC of venue: " + self.identifier)
+                logger.info("Successfully retrieved TOC of venue: " + str(self))
 
                 tree = html.fromstring(response.content)
                 items = tree.xpath('//header[not(@class)]/h2 | //header[not(@class)]/h3 | //ul[@class="publ-list"]/li')
@@ -85,15 +84,50 @@ class Venue(object):
                             ee
                         ))
 
-                logger.info("Successfully parsed TOC of venue: " + self.identifier)
+                logger.info("Successfully parsed TOC of venue: " + str(self))
             else:
-                logger.error("An error occurred while retrieving TOC of venue: " + self.identifier)
+                logger.error("An error occurred while retrieving TOC of venue: " + str(self))
 
         except ConnectionError:
-            logger.error("An error occurred while retrieving TOC of venue: " + self.identifier)
+            logger.error("An error occurred while retrieving TOC of venue: " + str(self))
+
+    def validate_page_ranges(self):
+        logger.info("Sorting papers of venue: " + str(self))
+
+        self.papers.sort(key=lambda p: p.first_page)
+
+        logger.info("Validating page ranges of venue: " + str(self))
+
+        if len(self.papers) < 2:
+            return
+
+        previous_paper = self.papers[0]
+        for i in range(1, len(self.papers)):
+            current_paper = self.papers[i]
+
+            if current_paper.page_range == "" or previous_paper.page_range == "":
+                previous_paper = self.papers[i]
+                continue
+
+            if current_paper.regular_page_range and current_paper.first_page != previous_paper.last_page + 1:
+                current_paper.append_comment("issue_first_page")
+                previous_paper.append_comment("issue_last_page")
+                logger.warning("First page of paper " + str(current_paper) + " does not match previous paper "
+                               + str(previous_paper))
+
+            elif current_paper.numbered_page_range and current_paper.article_number != previous_paper.article_number + 1:
+                current_paper.append_comment("issue_article_number")
+                previous_paper.append_comment("issue_article_number")
+                logger.warning("Article number of paper " + str(current_paper) + " does not match previous paper "
+                               + str(previous_paper))
+
+            previous_paper = self.papers[i]
 
     def get_rows(self):
         rows = []
         for paper in self.papers:
             rows.append(paper.get_column_values())
         return rows
+
+    def __str__(self):
+        return str(self.identifier)
