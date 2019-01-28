@@ -13,6 +13,8 @@ Currently, retrieval of the following properties is supported:
 The tool validates the page ranges and adds a log message to column `comment` in case possible inconsistencies are detected.
 Tested with ICSE, FSE, TSE, and TOSEM 2014-2018.
 
+[![DOI](https://zenodo.org/badge/166964646.svg)](https://zenodo.org/badge/latestdoi/166964646)
+
 # Setup
 
 Python 3 is required. The dependencies are specified in `requirements.txt`.
