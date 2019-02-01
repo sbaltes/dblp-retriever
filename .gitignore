@@ -25,6 +25,17 @@ __pycache__/
 #*.py[cod]
 *$py.class
 
+#########
+# Excel #
+#########
+~$*
+
+###########
+# RStudio #
+###########
+.Rhistory
+.RData
+
 ########
 # Misc #
 ########
