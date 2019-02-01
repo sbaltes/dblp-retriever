@@ -37,4 +37,7 @@ sample <- papers[sampled_rows,]
 nrow(sample)
 # 100
 
+# randomize order
+sample <- sample[randomSequence(min=1, max=nrow(sample), col=1, check=TRUE)[,1]]
+
 write.table(sample, file="../output/sample.csv", sep=",", col.names=TRUE, row.names=FALSE, na="", quote=TRUE, qmethod="double", fileEncoding="UTF-8")
