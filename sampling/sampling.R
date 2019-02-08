@@ -17,6 +17,10 @@ papers <- fread("../output/venues_validated.csv", header=TRUE, sep=",", quote="\
 nrow(papers)
 # 1,564
 
+papers <- unique.data.frame(papers)
+nrow(papers)
+# 1564
+
 papers <- papers[papers$is_full_paper == TRUE]
 nrow(papers)
 # 1,215
@@ -29,7 +33,8 @@ sampled_rows <- integer()
 for (venue in unique_venues) {
   print(paste0("Processing venue ", venue))
   venue_rows <- which(papers$identifier==venue)
-  selected_rows <- venue_rows[randomNumbers(n=PAPERS_PER_VENUE, min=1, max=length(venue_rows), col=1, base=10, check=TRUE)[,1]]
+  selected_rows <- venue_rows[randomSequence(min=1, max=length(venue_rows), col=1, check=TRUE)[1:PAPERS_PER_VENUE,1]]
+  stopifnot(length(unique(selected_rows)) == PAPERS_PER_VENUE)
   sampled_rows <- c(sampled_rows, selected_rows)
 }
 
