@@ -1,4 +1,6 @@
 import logging
+import re
+
 import requests
 
 from lxml import html
@@ -38,7 +40,7 @@ class Venue(object):
 
                 for item in items:
                     if item.tag == "h2" or item.tag == "h3":
-                        current_heading = item.text
+                        current_heading = re.sub(r'\s+', ' ', item.text)  # unify whitespaces (remove newlines)
                     elif item.tag == "li":
                         if current_heading == "":
                             # the following only works for conferences, not for journals
