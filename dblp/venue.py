@@ -36,11 +36,15 @@ class Venue(object):
                 items = tree.xpath('//header[not(@class)]/h2 | //header[not(@class)]/h3 | //ul[@class="publ-list"]/li')
 
                 current_heading = ""
-                year = ""
 
                 for item in items:
                     if item.tag == "h2" or item.tag == "h3":
-                        current_heading = re.sub(r'\s+', ' ', item.text)  # unify whitespaces (remove newlines)
+                        heading = item.xpath("descendant-or-self::*/text()")
+                        if len(heading) > 0:
+                            current_heading = re.sub(r'\s+', ' ',  # unify whitespaces/ remove newlines
+                                                     str(" ".join(str(element).strip() for element in heading)))
+                        else:
+                            current_heading = ""
                     elif item.tag == "li":
                         if current_heading == "":
                             # the following only works for conferences, not for journals
@@ -51,9 +55,9 @@ class Venue(object):
                             #     year = ""
                             continue
 
-                        title = item.xpath('div[@class="data"]/span[@itemprop="name"]/text()')
+                        title = item.xpath('div[@class="data"]/span[@itemprop="name"]/descendant-or-self::*/text()')
                         if len(title) > 0:
-                            title = str(title[0])
+                            title = str(" ".join(str(element).strip() for element in title))
                         else:
                             title = ""
 
@@ -69,7 +73,8 @@ class Venue(object):
                         else:
                             ee = ""
 
-                        authors = item.xpath('div[@class="data"]/span[@itemprop="author"]/a/span[@itemprop="name"]/text()')
+                        authors = item.xpath('div[@class="data"]/span[@itemprop="author"]/a/span[@itemprop="name"]'
+                                             '/text()')
                         if len(authors) == 1:
                             authors = str(authors[0])
                         else:

@@ -1,7 +1,7 @@
 venue,year,identifier,heading,title,authors,page_range,length,electronic_edition,comment
 ICSE,2014,conf/icse/icse2014,Perspectives on Software Engineering,"Cowboys, ankle sprains, and keepers of quality: how is video game development different from software development?",Emerson R. Murphy-Hill; Thomas Zimmermann; Nachiappan Nagappan,1-11,11,https://doi.org/10.1145/2568225.2568226,
-ICSE,2014,conf/icse/icse2014,Perspectives on Software Engineering,Analyze this! 145 questions for data scientists in software engineering.,Andrew Begel; Thomas Zimmermann,12-13,2,https://doi.org/10.1145/2568225.2568233,issue_last_page
-ICSE,2014,conf/icse/icse2014,Perspectives on Software Engineering,The dimensions of software engineering success.,Paul Ralph; Paul Kelly,24-35,12,https://doi.org/10.1145/2568225.2568261,issue_first_page
+ICSE,2014,conf/icse/icse2014,Perspectives on Software Engineering,Analyze this! 145 questions for data scientists in software engineering.,Andrew Begel; Thomas Zimmermann,12-23,12,https://doi.org/10.1145/2568225.2568233,
+ICSE,2014,conf/icse/icse2014,Perspectives on Software Engineering,The dimensions of software engineering success.,Paul Ralph; Paul Kelly,24-35,12,https://doi.org/10.1145/2568225.2568261,
 ICSE,2014,conf/icse/icse2014,Perspectives on Software Engineering,How do professionals perceive legacy systems and software modernization?,Ravi Khadka; Belfrit V. Batlajery; Amir Saeidi; Slinger Jansen; Jurriaan Hage,36-47,12,https://doi.org/10.1145/2568225.2568318,
 ICSE,2014,conf/icse/icse2014,Testing 1,SimRT: an automated framework to support regression testing for data races.,Tingting Yu; Witawas Srisa-an; Gregg Rothermel,48-59,12,https://doi.org/10.1145/2568225.2568294,
 ICSE,2014,conf/icse/icse2014,Testing 1,Performance regression testing target prioritization via performance risk analysis.,Peng Huang; Xiao Ma; Dongcai Shen; Yuanyuan Zhou,60-71,12,https://doi.org/10.1145/2568225.2568232,
@@ -138,7 +138,7 @@ ICSE,2015,conf/icse/icse2015-1,Refactoring,Does Automated Refactoring Obviate Sy
 ICSE,2015,conf/icse/icse2015-1,Refactoring,When and Why Your Code Starts to Smell Bad.,Michele Tufano; Fabio Palomba; Gabriele Bavota; Rocco Oliveto; Massimiliano Di Penta; Andrea De Lucia; Denys Poshyvanyk,403-414,12,https://doi.org/10.1109/ICSE.2015.59,
 ICSE,2015,conf/icse/icse2015-1,Mining,Learning to Log: Helping Developers Make Informed Logging Decisions.,Jieming Zhu; Pinjia He; Qiang Fu; Hongyu Zhang; Michael R. Lyu; Dongmei Zhang,415-425,11,https://doi.org/10.1109/ICSE.2015.60,
 ICSE,2015,conf/icse/icse2015-1,Mining,Mining Apps for Abnormal Usage of Sensitive Data.,Vitalii Avdiienko; Konstantin Kuznetsov; Alessandra Gorla; Andreas Zeller; Steven Arzt; Siegfried Rasthofer; Eric Bodden,426-436,11,https://doi.org/10.1109/ICSE.2015.61,
-ICSE,2015,conf/icse/icse2015-1,Mining,Tracking Static Analysis Violations over Time to Capture Developer Characteristics.,Pavel Avgustinov; Arthur I. Baars; Anders S. Henriksen; R. Greg Lavender; Galen Menzel; Oege de Moor; Max Schäfer; Julian Tibble,437-447,11,https://doi.org/10.1109/ICSE.2015.62,
+ICSE,2015,conf/icse/icse2015-1,Mining,Tracking Static Analysis Violations over Time to Capture Developer Characteristics.,Pavel Avgustinov; Arthur I. Baars; Anders Starcke Henriksen; R. Greg Lavender; Galen Menzel; Oege de Moor; Max Schäfer; Julian Tibble,437-447,11,https://doi.org/10.1109/ICSE.2015.62,
 ICSE,2015,conf/icse/icse2015-1,Patching and Fixing I,DirectFix: Looking for Simple Program Repairs.,Sergey Mechtaev; Jooyong Yi; Abhik Roychoudhury,448-458,11,https://doi.org/10.1109/ICSE.2015.63,
 ICSE,2015,conf/icse/icse2015-1,Patching and Fixing I,Safe Memory-Leak Fixing for C Programs.,Qing Gao; Yingfei Xiong; Yaqing Mi; Lu Zhang; Weikun Yang; Zhaoping Zhou; Bing Xie; Hong Mei,459-470,12,https://doi.org/10.1109/ICSE.2015.64,
 ICSE,2015,conf/icse/icse2015-1,Patching and Fixing I,relifix: Automated Repair of Software Regressions.,Shin Hwei Tan; Abhik Roychoudhury,471-482,12,https://doi.org/10.1109/ICSE.2015.65,
@@ -285,142 +285,74 @@ ICSE,2016,conf/icse/icse2016,Maintenance,Improving refactoring speed by 10X.,Jon
 ICSE,2016,conf/icse/icse2016,Maintenance,SourcererCC: scaling code clone detection to big-code.,Hitesh Sajnani; Vaibhav Saini; Jeffrey Svajlenko; Chanchal K. Roy; Cristina V. Lopes,1157-1168,12,https://doi.org/10.1145/2884781.2884877,
 ICSE,2016,conf/icse/icse2016,Maintenance,Understanding asynchronous interactions in full-stack JavaScript.,Saba Alimadadi; Ali Mesbah; Karthik Pattabiraman,1169-1180,12,https://doi.org/10.1145/2884781.2884864,
 ICSE,2016,conf/icse/icse2016,Maintenance,Shadow of a doubt: testing for divergences between software versions.,Hristina Palikareva; Tomasz Kuchta; Cristian Cadar,1181-1192,12,https://doi.org/10.1145/2884781.2884845,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Traceability",Semantically enhanced software traceability using deep learning techniques.,Jin Guo; Jinghui Cheng; Jane Cleland-Huang,3-14,12,https://doi.org/10.1109/ICSE.2017.9,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Traceability",Can latent topics in source code predict missing architectural tactics?,Raghuram Gopalakrishnan; Palak Sharma; Mehdi Mirakhorli; Matthias Galster,15-26,12,https://doi.org/10.1109/ICSE.2017.10,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Documentation",Analyzing APIs documentation and code to detect directive defects.,Yu Zhou; Ruihang Gu; Taolue Chen; Zhiqiu Huang; Sebastiano Panichella; Harald C. Gall,27-37,11,https://doi.org/10.1109/ICSE.2017.11,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Documentation",An unsupervised approach for discovering relevant tutorial fragments for APIs.,He Jiang; Jingxuan Zhang; Zhilei Ren; Tao Zhang,38-48,11,https://doi.org/10.1109/ICSE.2017.12,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Documentation",Detecting user story information in developer-client conversations to generate extractive summaries.,Paige Rodeghero; Siyuan Jiang; Ameer Armaly; Collin McMillan,49-59,11,https://doi.org/10.1109/ICSE.2017.13,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Refactoring",Clone refactoring with lambda expressions.,Nikolaos Tsantalis; Davood Mazinanian; Shahriar Rostami,60-70,11,https://doi.org/10.1109/ICSE.2017.14,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Refactoring",Characterizing and detecting anti-patterns in the logging code.,Boyuan Chen; Zhen Ming (Jack) Jiang,71-81,11,https://doi.org/10.1109/ICSE.2017.15,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Refactoring",Automated refactoring of legacy Java software to default methods.,Raffi Khatchadourian; Hidehiko Masuhara,82-93,12,https://doi.org/10.1109/ICSE.2017.16,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Recommendation systems",Supporting software developers with a holistic recommender system.,Luca Ponzanelli; Simone Scalabrino; Gabriele Bavota; Andrea Mocci; Rocco Oliveto; Massimiliano Di Penta; Michele Lanza,94-105,12,https://doi.org/10.1109/ICSE.2017.17,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Recommendation systems",Recommending and localizing change requests for mobile apps based on user reviews.,Fabio Palomba; Pasquale Salza; Adelina Ciurumelea; Sebastiano Panichella; Harald C. Gall; Filomena Ferrucci; Andrea De Lucia,106-117,12,https://doi.org/10.1109/ICSE.2017.18,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Recommendation systems",Machine learning-based detection of open source license exceptions.,Christopher Vendome; Mario Linares Vásquez; Gabriele Bavota; Massimiliano Di Penta; Daniel M. Germán; Denys Poshyvanyk,118-129,12,https://doi.org/10.1109/ICSE.2017.19,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Software process",Software development waste.,Todd Sedano; Paul Ralph; Cécile Péraire,130-140,11,https://doi.org/10.1109/ICSE.2017.20,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Software process",Becoming agile: a grounded theory of agile transitions in practice.,Rashina Hoda; James Noble,141-151,11,https://doi.org/10.1109/ICSE.2017.21,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Software process",From diversity by numbers to diversity as process: supporting inclusiveness in software development teams with brainstorming.,Anna Filippova; Erik H. Trainer; James D. Herbsleb,152-163,12,https://doi.org/10.1109/ICSE.2017.22,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Studies of software developers",Classifying developers into core and peripheral: an empirical study on count and network metrics.,Mitchell Joblin; Sven Apel; Claus Hunsen; Wolfgang Mauerer,164-174,11,https://doi.org/10.1109/ICSE.2017.23,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Studies of software developers",Decoding the representation of code in the brain: an fMRI study of code review and expertise.,Benjamin Floyd; Tyler Santander; Westley Weimer,175-186,12,https://doi.org/10.1109/ICSE.2017.24,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Studies of software developers","Understanding the impressions, motivations, and barriers of one time code contributors to FLOSS projects: a survey.",Amanda Lee; Jeffrey C. Carver; Amiangshu Bosu,187-197,11,https://doi.org/10.1109/ICSE.2017.25,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Search-based software engineering",Search-driven string constraint solving for vulnerability detection.,Julian Thomé; Lwin Khin Shar; Domenico Bianculli; Lionel C. Briand,198-208,11,https://doi.org/10.1109/ICSE.2017.26,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Search-based software engineering",A guided genetic algorithm for automated crash reproduction.,Mozhan Soltani; Annibale Panichella; Arie van Deursen,209-220,12,https://doi.org/10.1109/ICSE.2017.27,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Search-based software engineering",Stochastic optimization of program obfuscation.,Han Liu; Chengnian Sun; Zhendong Su; Yu Jiang; Ming Gu; Jiaguang Sun,221-231,11,https://doi.org/10.1109/ICSE.2017.28,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Web applications",ZenIDS: introspective intrusion detection for PHP applications.,Byron Hawkins; Brian Demsky,232-243,12,https://doi.org/10.1109/ICSE.2017.29,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Web applications",Statically checking web API requests in JavaScript.,Erik Wittern; Annie T. T. Ying; Yunhui Zheng; Julian Dolby; Jim Alain Laredo,244-254,11,https://doi.org/10.1109/ICSE.2017.30,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Web applications",On cross-stack configuration errors.,Mohammed Sayagh; Noureddine Kerzazi; Bram Adams,255-265,11,https://doi.org/10.1109/ICSE.2017.31,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Concurrency",Efficient detection of thread safety violations via coverage-guided generation of concurrent tests.,Ankit Choudhary; Shan Lu; Michael Pradel,266-277,12,https://doi.org/10.1109/ICSE.2017.32,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Concurrency",RClassify: classifying race conditions in web applications via deterministic replay.,Lu Zhang; Chao Wang,278-288,11,https://doi.org/10.1109/ICSE.2017.33,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Concurrency",Repairing event race errors by controlling nondeterminism.,Christoffer Quist Adamsen; Anders Møller; Rezwana Karim; Manu Sridharan; Frank Tip; Koushik Sen,289-299,11,https://doi.org/10.1109/ICSE.2017.34,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mobile application security",Making malory behave maliciously: targeted fuzzing of android execution environments.,Siegfried Rasthofer; Steven Arzt; Stefan Triller; Michael Pradel,300-311,12,https://doi.org/10.1109/ICSE.2017.35,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mobile application security",A ,Youn Kyu Lee; Jae Young Bang; Gholamreza Safi; Arman Shahbazian; Yixue Zhao; Nenad Medvidovic,312-323,12,https://doi.org/10.1109/ICSE.2017.36,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mobile application security","An efficient, robust, and scalable approach for analyzing interacting android apps.",Yutaka Tsutano; Shakthi Bachala; Witawas Srisa-an; Gregg Rothermel; Jackson Dinh,324-334,11,https://doi.org/10.1109/ICSE.2017.37,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mobile application development",LibD: scalable and precise third-party library detection in android markets.,Menghao Li; Wei Wang; Pei Wang; Shuai Wang; Dinghao Wu; Jian Liu; Rui Xue; Wei Huo,335-346,12,https://doi.org/10.1109/ICSE.2017.38,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mobile application development",Analysis and testing of notifications in Android wear applications.,Hailong Zhang; Atanas Rountev,347-357,11,https://doi.org/10.1109/ICSE.2017.39,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mobile application development",Adaptive unpacking of Android apps.,Lei Xue; Xiapu Luo; Le Yu; Shuai Wang; Dinghao Wu,358-369,12,https://doi.org/10.1109/ICSE.2017.40,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Debugging",Performance diagnosis for inefficient loops.,Linhai Song; Shan Lu,370-380,11,https://doi.org/10.1109/ICSE.2017.41,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Debugging",How do developers fix cross-project correlated bugs?: a case study on the GitHub scientific python ecosystem.,Wanwangying Ma; Lin Chen; Xiangyu Zhang; Yuming Zhou; Baowen Xu,381-392,12,https://doi.org/10.1109/ICSE.2017.42,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Debugging",Feedback-based debugging.,Yun Lin; Jun Sun; Yinxing Xue; Yang Liu; Jin Song Dong,393-403,11,https://doi.org/10.1109/ICSE.2017.43,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program synthesis and repair",Learning syntactic program transformations from examples.,Reudismam Rolim; Gustavo Soares; Loris D'Antoni; Oleksandr Polozov; Sumit Gulwani; Rohit Gheyi; Ryo Suzuki; Björn Hartmann,404-415,12,https://doi.org/10.1109/ICSE.2017.44,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program synthesis and repair",Precise condition synthesis for program repair.,Yingfei Xiong; Jie Wang; Runfa Yan; Jiachen Zhang; Shi Han; Gang Huang; Lu Zhang,416-426,11,https://doi.org/10.1109/ICSE.2017.45,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program synthesis and repair",Heuristically matching solution spaces of arithmetic formulas to efficiently reuse solutions.,Andrea Aquino; Giovanni Denaro; Mauro Pezzè,427-437,11,https://doi.org/10.1109/ICSE.2017.46,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mining software repositories",Exploring API embedding for API usages and applications.,Trong Duc Nguyen; Anh Tuan Nguyen; Hung Dang Phan; Tien N. Nguyen,438-449,12,https://doi.org/10.1109/ICSE.2017.47,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Mining software repositories",Unsupervised software-specific morphological forms inference from informal discussions.,Chunyang Chen; Zhenchang Xing; Ximing Wang,450-461,12,https://doi.org/10.1109/ICSE.2017.48,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program analysis I",SPAIN: security patch analysis for binaries towards understanding the pain and pills.,Zhengzi Xu; Bihuan Chen; Mahinthan Chandramohan; Yang Liu; Fu Song,462-472,11,https://doi.org/10.1109/ICSE.2017.49,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program analysis I",Travioli: a dynamic analysis for detecting data-structure traversals.,Rohan Padhye; Koushik Sen,473-483,11,https://doi.org/10.1109/ICSE.2017.50,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program analysis I",ProEva: runtime proactive performance evaluation based on continuous-time markov chains.,Guoxin Su; Taolue Chen; Yuan Feng; David S. Rosenblum,484-495,12,https://doi.org/10.1109/ICSE.2017.51,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program analysis II",Glacier: transitive class immutability for Java.,Michael J. Coblenz; Whitney Nelson; Jonathan Aldrich; Brad A. Myers; Joshua Sunshine,496-506,11,https://doi.org/10.1109/ICSE.2017.52,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program analysis II",Challenges for static analysis of Java reflection: literature review and empirical study.,Davy Landman; Alexander Serebrenik; Jurgen J. Vinju,507-518,12,https://doi.org/10.1109/ICSE.2017.53,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Program analysis II",Machine-learning-guided selectively unsound static analysis.,Kihong Heo; Hakjoo Oh; Kwangkeun Yi,519-529,11,https://doi.org/10.1109/ICSE.2017.54,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Security, safety, and privacy",How good is a security policy against real breaches?: a HIPAA case study.,Özgür Kafali; Jasmine Jones; Megan Petruso; Laurie Williams; Munindar P. Singh,530-540,11,https://doi.org/10.1109/ICSE.2017.55,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Security, safety, and privacy",Adaptive coverage and operational profile-based testing for reliability improvement.,Antonia Bertolino; Breno Miranda; Roberto Pietrantuono; Stefano Russo,541-551,11,https://doi.org/10.1109/ICSE.2017.56,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Development tools and frameworks",RADAR: a lightweight tool for requirements and architecture decision analysis.,Saheed A. Busari; Emmanuel Letier,552-562,11,https://doi.org/10.1109/ICSE.2017.57,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Development tools and frameworks",PEoPL: projectional editing of product lines.,Benjamin Behringer; Jochen Palz; Thorsten Berger,563-574,12,https://doi.org/10.1109/ICSE.2017.58,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Development tools and frameworks",Do developers read compiler error messages?,Titus Barik; Justin Smith; Kevin Lubick; Elisabeth Holmes; Jing Feng; Emerson R. Murphy-Hill; Chris Parnin,575-585,11,https://doi.org/10.1109/ICSE.2017.59,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Development tools and frameworks",A general framework for dynamic stub injection.,Maria Christakis; Patrick Emmisberger; Patrice Godefroid; Peter Müller,586-596,11,https://doi.org/10.1109/ICSE.2017.60,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing and debugging","An empirical study on mutation, statement and branch coverage fault revelation that avoids the unreliable clean program assumption.",Thierry Titcheu Chekam; Mike Papadakis; Yves Le Traon; Mark Harman,597-608,12,https://doi.org/10.1109/ICSE.2017.61,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing and debugging",Evaluating and improving fault localization.,Spencer Pearson; José Campos; René Just; Gordon Fraser; Rui Abreu; Michael D. Ernst; Deric Pang; Benjamin Keller,609-620,12,https://doi.org/10.1109/ICSE.2017.62,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing I",Syntactic and semantic differencing for combinatorial models of test designs.,Rachel Tzoref-Brill; Shahar Maoz,621-631,11,https://doi.org/10.1109/ICSE.2017.63,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing I",Balancing soundness and efficiency for practical testing of configurable systems.,Sabrina Souto; Marcelo d'Amorim; Rohit Gheyi,632-642,11,https://doi.org/10.1109/ICSE.2017.64,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing I",Automatic text input generation for mobile testing.,Peng Liu; Xiangyu Zhang; Marco Pistoia; Yunhui Zheng; Manoel Marques; Lingfei Zeng,643-653,11,https://doi.org/10.1109/ICSE.2017.65,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing I",A test-suite diagnosability metric for spectrum-based fault localization approaches.,Alexandre Perez; Rui Abreu; Arie van Deursen,654-664,11,https://doi.org/10.1109/ICSE.2017.66,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing II",Automated transplantation and differential testing for clones.,Tianyi Zhang; Miryung Kim,665-676,12,https://doi.org/10.1109/ICSE.2017.67,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing II",Code defenders: crowdsourcing effective tests and subtle mutants with a mutation testing game.,José Miguel Rojas; Thomas D. White; Benjamin S. Clegg; Gordon Fraser,677-688,12,https://doi.org/10.1109/ICSE.2017.68,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing II",Optimizing test placement for module-level regression testing.,August Shi; Suresh Thummalapenta; Shuvendu K. Lahiri; Nikolaj Bjørner; Jacek Czerwonka,689-699,11,https://doi.org/10.1109/ICSE.2017.69,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Testing II",Learning to prioritize test programs for compiler testing.,Junjie Chen; Yanwei Bai; Dan Hao; Yingfei Xiong; Hongyu Zhang; Bing Xie,700-711,12,https://doi.org/10.1109/ICSE.2017.70,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Defect prediction",What causes my test alarm?: automatic cause analysis for test alarms in system and integration testing.,He Jiang; Xiaochen Li; Zijiang Yang; Jifeng Xuan,712-723,12,https://doi.org/10.1109/ICSE.2017.71,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Formal methods",Symbolic model extraction for web application verification.,Ivan Bocic; Tevfik Bultan,724-734,11,https://doi.org/10.1109/ICSE.2017.72,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Formal methods",UML diagram refinement (focusing on class- and use case diagrams).,David Faitelson; Shmuel S. Tyszberowicz,735-745,11,https://doi.org/10.1109/ICSE.2017.73,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Software evolution",Fuzzy fine-grained code-history analysis.,Francisco Servant; James A. Jones,746-757,12,https://doi.org/10.1109/ICSE.2017.74,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Software evolution",To type or not to type: quantifying detectable bugs in JavaScript.,Zheng Gao; Christian Bird; Earl T. Barr,758-769,12,https://doi.org/10.1109/ICSE.2017.75,
-ICSE,2017,conf/icse/icse2017,"Research track:
-Software evolution",The evolution of continuous experimentation in software product development: from data to a data-driven organization at scale.,Aleksander Fabijan; Pavel Dmitriev; Helena Holmström Olsson; Jan Bosch,770-780,11,https://doi.org/10.1109/ICSE.2017.76,
+ICSE,2017,conf/icse/icse2017,Research track: Traceability,Semantically enhanced software traceability using deep learning techniques.,Jin Guo; Jinghui Cheng; Jane Cleland-Huang,3-14,12,https://doi.org/10.1109/ICSE.2017.9,
+ICSE,2017,conf/icse/icse2017,Research track: Traceability,Can latent topics in source code predict missing architectural tactics?,Raghuram Gopalakrishnan; Palak Sharma; Mehdi Mirakhorli; Matthias Galster,15-26,12,https://doi.org/10.1109/ICSE.2017.10,
+ICSE,2017,conf/icse/icse2017,Research track: Documentation,Analyzing APIs documentation and code to detect directive defects.,Yu Zhou; Ruihang Gu; Taolue Chen; Zhiqiu Huang; Sebastiano Panichella; Harald C. Gall,27-37,11,https://doi.org/10.1109/ICSE.2017.11,
+ICSE,2017,conf/icse/icse2017,Research track: Documentation,An unsupervised approach for discovering relevant tutorial fragments for APIs.,He Jiang; Jingxuan Zhang; Zhilei Ren; Tao Zhang,38-48,11,https://doi.org/10.1109/ICSE.2017.12,
+ICSE,2017,conf/icse/icse2017,Research track: Documentation,Detecting user story information in developer-client conversations to generate extractive summaries.,Paige Rodeghero; Siyuan Jiang; Ameer Armaly; Collin McMillan,49-59,11,https://doi.org/10.1109/ICSE.2017.13,
+ICSE,2017,conf/icse/icse2017,Research track: Refactoring,Clone refactoring with lambda expressions.,Nikolaos Tsantalis; Davood Mazinanian; Shahriar Rostami,60-70,11,https://doi.org/10.1109/ICSE.2017.14,
+ICSE,2017,conf/icse/icse2017,Research track: Refactoring,Characterizing and detecting anti-patterns in the logging code.,Boyuan Chen; Zhen Ming (Jack) Jiang,71-81,11,https://doi.org/10.1109/ICSE.2017.15,
+ICSE,2017,conf/icse/icse2017,Research track: Refactoring,Automated refactoring of legacy Java software to default methods.,Raffi Khatchadourian; Hidehiko Masuhara,82-93,12,https://doi.org/10.1109/ICSE.2017.16,
+ICSE,2017,conf/icse/icse2017,Research track: Recommendation systems,Supporting software developers with a holistic recommender system.,Luca Ponzanelli; Simone Scalabrino; Gabriele Bavota; Andrea Mocci; Rocco Oliveto; Massimiliano Di Penta; Michele Lanza,94-105,12,https://doi.org/10.1109/ICSE.2017.17,
+ICSE,2017,conf/icse/icse2017,Research track: Recommendation systems,Recommending and localizing change requests for mobile apps based on user reviews.,Fabio Palomba; Pasquale Salza; Adelina Ciurumelea; Sebastiano Panichella; Harald C. Gall; Filomena Ferrucci; Andrea De Lucia,106-117,12,https://doi.org/10.1109/ICSE.2017.18,
+ICSE,2017,conf/icse/icse2017,Research track: Recommendation systems,Machine learning-based detection of open source license exceptions.,Christopher Vendome; Mario Linares Vásquez; Gabriele Bavota; Massimiliano Di Penta; Daniel M. Germán; Denys Poshyvanyk,118-129,12,https://doi.org/10.1109/ICSE.2017.19,
+ICSE,2017,conf/icse/icse2017,Research track: Software process,Software development waste.,Todd Sedano; Paul Ralph; Cécile Péraire,130-140,11,https://doi.org/10.1109/ICSE.2017.20,
+ICSE,2017,conf/icse/icse2017,Research track: Software process,Becoming agile: a grounded theory of agile transitions in practice.,Rashina Hoda; James Noble,141-151,11,https://doi.org/10.1109/ICSE.2017.21,
+ICSE,2017,conf/icse/icse2017,Research track: Software process,From diversity by numbers to diversity as process: supporting inclusiveness in software development teams with brainstorming.,Anna Filippova; Erik H. Trainer; James D. Herbsleb,152-163,12,https://doi.org/10.1109/ICSE.2017.22,
+ICSE,2017,conf/icse/icse2017,Research track: Studies of software developers,Classifying developers into core and peripheral: an empirical study on count and network metrics.,Mitchell Joblin; Sven Apel; Claus Hunsen; Wolfgang Mauerer,164-174,11,https://doi.org/10.1109/ICSE.2017.23,
+ICSE,2017,conf/icse/icse2017,Research track: Studies of software developers,Decoding the representation of code in the brain: an fMRI study of code review and expertise.,Benjamin Floyd; Tyler Santander; Westley Weimer,175-186,12,https://doi.org/10.1109/ICSE.2017.24,
+ICSE,2017,conf/icse/icse2017,Research track: Studies of software developers,"Understanding the impressions, motivations, and barriers of one time code contributors to FLOSS projects: a survey.",Amanda Lee; Jeffrey C. Carver; Amiangshu Bosu,187-197,11,https://doi.org/10.1109/ICSE.2017.25,
+ICSE,2017,conf/icse/icse2017,Research track: Search-based software engineering,Search-driven string constraint solving for vulnerability detection.,Julian Thomé; Lwin Khin Shar; Domenico Bianculli; Lionel C. Briand,198-208,11,https://doi.org/10.1109/ICSE.2017.26,
+ICSE,2017,conf/icse/icse2017,Research track: Search-based software engineering,A guided genetic algorithm for automated crash reproduction.,Mozhan Soltani; Annibale Panichella; Arie van Deursen,209-220,12,https://doi.org/10.1109/ICSE.2017.27,
+ICSE,2017,conf/icse/icse2017,Research track: Search-based software engineering,Stochastic optimization of program obfuscation.,Han Liu; Chengnian Sun; Zhendong Su; Yu Jiang; Ming Gu; Jiaguang Sun,221-231,11,https://doi.org/10.1109/ICSE.2017.28,
+ICSE,2017,conf/icse/icse2017,Research track: Web applications,ZenIDS: introspective intrusion detection for PHP applications.,Byron Hawkins; Brian Demsky,232-243,12,https://doi.org/10.1109/ICSE.2017.29,
+ICSE,2017,conf/icse/icse2017,Research track: Web applications,Statically checking web API requests in JavaScript.,Erik Wittern; Annie T. T. Ying; Yunhui Zheng; Julian Dolby; Jim Alain Laredo,244-254,11,https://doi.org/10.1109/ICSE.2017.30,
+ICSE,2017,conf/icse/icse2017,Research track: Web applications,On cross-stack configuration errors.,Mohammed Sayagh; Noureddine Kerzazi; Bram Adams,255-265,11,https://doi.org/10.1109/ICSE.2017.31,
+ICSE,2017,conf/icse/icse2017,Research track: Concurrency,Efficient detection of thread safety violations via coverage-guided generation of concurrent tests.,Ankit Choudhary; Shan Lu; Michael Pradel,266-277,12,https://doi.org/10.1109/ICSE.2017.32,
+ICSE,2017,conf/icse/icse2017,Research track: Concurrency,RClassify: classifying race conditions in web applications via deterministic replay.,Lu Zhang; Chao Wang,278-288,11,https://doi.org/10.1109/ICSE.2017.33,
+ICSE,2017,conf/icse/icse2017,Research track: Concurrency,Repairing event race errors by controlling nondeterminism.,Christoffer Quist Adamsen; Anders Møller; Rezwana Karim; Manu Sridharan; Frank Tip; Koushik Sen,289-299,11,https://doi.org/10.1109/ICSE.2017.34,
+ICSE,2017,conf/icse/icse2017,Research track: Mobile application security,Making malory behave maliciously: targeted fuzzing of android execution environments.,Siegfried Rasthofer; Steven Arzt; Stefan Triller; Michael Pradel,300-311,12,https://doi.org/10.1109/ICSE.2017.35,
+ICSE,2017,conf/icse/icse2017,Research track: Mobile application security,A SEALANT for inter-app security holes in android.,Youn Kyu Lee; Jae Young Bang; Gholamreza Safi; Arman Shahbazian; Yixue Zhao; Nenad Medvidovic,312-323,12,https://doi.org/10.1109/ICSE.2017.36,
+ICSE,2017,conf/icse/icse2017,Research track: Mobile application security,"An efficient, robust, and scalable approach for analyzing interacting android apps.",Yutaka Tsutano; Shakthi Bachala; Witawas Srisa-an; Gregg Rothermel; Jackson Dinh,324-334,11,https://doi.org/10.1109/ICSE.2017.37,
+ICSE,2017,conf/icse/icse2017,Research track: Mobile application development,LibD: scalable and precise third-party library detection in android markets.,Menghao Li; Wei Wang; Pei Wang; Shuai Wang; Dinghao Wu; Jian Liu; Rui Xue; Wei Huo,335-346,12,https://doi.org/10.1109/ICSE.2017.38,
+ICSE,2017,conf/icse/icse2017,Research track: Mobile application development,Analysis and testing of notifications in Android wear applications.,Hailong Zhang; Atanas Rountev,347-357,11,https://doi.org/10.1109/ICSE.2017.39,
+ICSE,2017,conf/icse/icse2017,Research track: Mobile application development,Adaptive unpacking of Android apps.,Lei Xue; Xiapu Luo; Le Yu; Shuai Wang; Dinghao Wu,358-369,12,https://doi.org/10.1109/ICSE.2017.40,
+ICSE,2017,conf/icse/icse2017,Research track: Debugging,Performance diagnosis for inefficient loops.,Linhai Song; Shan Lu,370-380,11,https://doi.org/10.1109/ICSE.2017.41,
+ICSE,2017,conf/icse/icse2017,Research track: Debugging,How do developers fix cross-project correlated bugs?: a case study on the GitHub scientific python ecosystem.,Wanwangying Ma; Lin Chen; Xiangyu Zhang; Yuming Zhou; Baowen Xu,381-392,12,https://doi.org/10.1109/ICSE.2017.42,
+ICSE,2017,conf/icse/icse2017,Research track: Debugging,Feedback-based debugging.,Yun Lin; Jun Sun; Yinxing Xue; Yang Liu; Jin Song Dong,393-403,11,https://doi.org/10.1109/ICSE.2017.43,
+ICSE,2017,conf/icse/icse2017,Research track: Program synthesis and repair,Learning syntactic program transformations from examples.,Reudismam Rolim; Gustavo Soares; Loris D'Antoni; Oleksandr Polozov; Sumit Gulwani; Rohit Gheyi; Ryo Suzuki; Björn Hartmann,404-415,12,https://doi.org/10.1109/ICSE.2017.44,
+ICSE,2017,conf/icse/icse2017,Research track: Program synthesis and repair,Precise condition synthesis for program repair.,Yingfei Xiong; Jie Wang; Runfa Yan; Jiachen Zhang; Shi Han; Gang Huang; Lu Zhang,416-426,11,https://doi.org/10.1109/ICSE.2017.45,
+ICSE,2017,conf/icse/icse2017,Research track: Program synthesis and repair,Heuristically matching solution spaces of arithmetic formulas to efficiently reuse solutions.,Andrea Aquino; Giovanni Denaro; Mauro Pezzè,427-437,11,https://doi.org/10.1109/ICSE.2017.46,
+ICSE,2017,conf/icse/icse2017,Research track: Mining software repositories,Exploring API embedding for API usages and applications.,Trong Duc Nguyen; Anh Tuan Nguyen; Hung Dang Phan; Tien N. Nguyen,438-449,12,https://doi.org/10.1109/ICSE.2017.47,
+ICSE,2017,conf/icse/icse2017,Research track: Mining software repositories,Unsupervised software-specific morphological forms inference from informal discussions.,Chunyang Chen; Zhenchang Xing; Ximing Wang,450-461,12,https://doi.org/10.1109/ICSE.2017.48,
+ICSE,2017,conf/icse/icse2017,Research track: Program analysis I,SPAIN: security patch analysis for binaries towards understanding the pain and pills.,Zhengzi Xu; Bihuan Chen; Mahinthan Chandramohan; Yang Liu; Fu Song,462-472,11,https://doi.org/10.1109/ICSE.2017.49,
+ICSE,2017,conf/icse/icse2017,Research track: Program analysis I,Travioli: a dynamic analysis for detecting data-structure traversals.,Rohan Padhye; Koushik Sen,473-483,11,https://doi.org/10.1109/ICSE.2017.50,
+ICSE,2017,conf/icse/icse2017,Research track: Program analysis I,ProEva: runtime proactive performance evaluation based on continuous-time markov chains.,Guoxin Su; Taolue Chen; Yuan Feng; David S. Rosenblum,484-495,12,https://doi.org/10.1109/ICSE.2017.51,
+ICSE,2017,conf/icse/icse2017,Research track: Program analysis II,Glacier: transitive class immutability for Java.,Michael J. Coblenz; Whitney Nelson; Jonathan Aldrich; Brad A. Myers; Joshua Sunshine,496-506,11,https://doi.org/10.1109/ICSE.2017.52,
+ICSE,2017,conf/icse/icse2017,Research track: Program analysis II,Challenges for static analysis of Java reflection: literature review and empirical study.,Davy Landman; Alexander Serebrenik; Jurgen J. Vinju,507-518,12,https://doi.org/10.1109/ICSE.2017.53,
+ICSE,2017,conf/icse/icse2017,Research track: Program analysis II,Machine-learning-guided selectively unsound static analysis.,Kihong Heo; Hakjoo Oh; Kwangkeun Yi,519-529,11,https://doi.org/10.1109/ICSE.2017.54,
+ICSE,2017,conf/icse/icse2017,"Research track: Security, safety, and privacy",How good is a security policy against real breaches?: a HIPAA case study.,Özgür Kafali; Jasmine Jones; Megan Petruso; Laurie Williams; Munindar P. Singh,530-540,11,https://doi.org/10.1109/ICSE.2017.55,
+ICSE,2017,conf/icse/icse2017,"Research track: Security, safety, and privacy",Adaptive coverage and operational profile-based testing for reliability improvement.,Antonia Bertolino; Breno Miranda; Roberto Pietrantuono; Stefano Russo,541-551,11,https://doi.org/10.1109/ICSE.2017.56,
+ICSE,2017,conf/icse/icse2017,Research track: Development tools and frameworks,RADAR: a lightweight tool for requirements and architecture decision analysis.,Saheed A. Busari; Emmanuel Letier,552-562,11,https://doi.org/10.1109/ICSE.2017.57,
+ICSE,2017,conf/icse/icse2017,Research track: Development tools and frameworks,PEoPL: projectional editing of product lines.,Benjamin Behringer; Jochen Palz; Thorsten Berger,563-574,12,https://doi.org/10.1109/ICSE.2017.58,
+ICSE,2017,conf/icse/icse2017,Research track: Development tools and frameworks,Do developers read compiler error messages?,Titus Barik; Justin Smith; Kevin Lubick; Elisabeth Holmes; Jing Feng; Emerson R. Murphy-Hill; Chris Parnin,575-585,11,https://doi.org/10.1109/ICSE.2017.59,
+ICSE,2017,conf/icse/icse2017,Research track: Development tools and frameworks,A general framework for dynamic stub injection.,Maria Christakis; Patrick Emmisberger; Patrice Godefroid; Peter Müller,586-596,11,https://doi.org/10.1109/ICSE.2017.60,
+ICSE,2017,conf/icse/icse2017,Research track: Testing and debugging,"An empirical study on mutation, statement and branch coverage fault revelation that avoids the unreliable clean program assumption.",Thierry Titcheu Chekam; Mike Papadakis; Yves Le Traon; Mark Harman,597-608,12,https://doi.org/10.1109/ICSE.2017.61,
+ICSE,2017,conf/icse/icse2017,Research track: Testing and debugging,Evaluating and improving fault localization.,Spencer Pearson; José Campos; René Just; Gordon Fraser; Rui Abreu; Michael D. Ernst; Deric Pang; Benjamin Keller,609-620,12,https://doi.org/10.1109/ICSE.2017.62,
+ICSE,2017,conf/icse/icse2017,Research track: Testing I,Syntactic and semantic differencing for combinatorial models of test designs.,Rachel Tzoref-Brill; Shahar Maoz,621-631,11,https://doi.org/10.1109/ICSE.2017.63,
+ICSE,2017,conf/icse/icse2017,Research track: Testing I,Balancing soundness and efficiency for practical testing of configurable systems.,Sabrina Souto; Marcelo d'Amorim; Rohit Gheyi,632-642,11,https://doi.org/10.1109/ICSE.2017.64,
+ICSE,2017,conf/icse/icse2017,Research track: Testing I,Automatic text input generation for mobile testing.,Peng Liu; Xiangyu Zhang; Marco Pistoia; Yunhui Zheng; Manoel Marques; Lingfei Zeng,643-653,11,https://doi.org/10.1109/ICSE.2017.65,
+ICSE,2017,conf/icse/icse2017,Research track: Testing I,A test-suite diagnosability metric for spectrum-based fault localization approaches.,Alexandre Perez; Rui Abreu; Arie van Deursen,654-664,11,https://doi.org/10.1109/ICSE.2017.66,
+ICSE,2017,conf/icse/icse2017,Research track: Testing II,Automated transplantation and differential testing for clones.,Tianyi Zhang; Miryung Kim,665-676,12,https://doi.org/10.1109/ICSE.2017.67,
+ICSE,2017,conf/icse/icse2017,Research track: Testing II,Code defenders: crowdsourcing effective tests and subtle mutants with a mutation testing game.,José Miguel Rojas; Thomas D. White; Benjamin S. Clegg; Gordon Fraser,677-688,12,https://doi.org/10.1109/ICSE.2017.68,
+ICSE,2017,conf/icse/icse2017,Research track: Testing II,Optimizing test placement for module-level regression testing.,August Shi; Suresh Thummalapenta; Shuvendu K. Lahiri; Nikolaj Bjørner; Jacek Czerwonka,689-699,11,https://doi.org/10.1109/ICSE.2017.69,
+ICSE,2017,conf/icse/icse2017,Research track: Testing II,Learning to prioritize test programs for compiler testing.,Junjie Chen; Yanwei Bai; Dan Hao; Yingfei Xiong; Hongyu Zhang; Bing Xie,700-711,12,https://doi.org/10.1109/ICSE.2017.70,
+ICSE,2017,conf/icse/icse2017,Research track: Defect prediction,What causes my test alarm?: automatic cause analysis for test alarms in system and integration testing.,He Jiang; Xiaochen Li; Zijiang Yang; Jifeng Xuan,712-723,12,https://doi.org/10.1109/ICSE.2017.71,
+ICSE,2017,conf/icse/icse2017,Research track: Formal methods,Symbolic model extraction for web application verification.,Ivan Bocic; Tevfik Bultan,724-734,11,https://doi.org/10.1109/ICSE.2017.72,
+ICSE,2017,conf/icse/icse2017,Research track: Formal methods,UML diagram refinement (focusing on class- and use case diagrams).,David Faitelson; Shmuel S. Tyszberowicz,735-745,11,https://doi.org/10.1109/ICSE.2017.73,
+ICSE,2017,conf/icse/icse2017,Research track: Software evolution,Fuzzy fine-grained code-history analysis.,Francisco Servant; James A. Jones,746-757,12,https://doi.org/10.1109/ICSE.2017.74,
+ICSE,2017,conf/icse/icse2017,Research track: Software evolution,To type or not to type: quantifying detectable bugs in JavaScript.,Zheng Gao; Christian Bird; Earl T. Barr,758-769,12,https://doi.org/10.1109/ICSE.2017.75,
+ICSE,2017,conf/icse/icse2017,Research track: Software evolution,The evolution of continuous experimentation in software product development: from data to a data-driven organization at scale.,Aleksander Fabijan; Pavel Dmitriev; Helena Holmström Olsson; Jan Bosch,770-780,11,https://doi.org/10.1109/ICSE.2017.76,
 ICSE,2018,conf/icse/icse2018,Software repair I,Context-aware patch generation for better automated program repair.,Ming Wen; Junjie Chen; Rongxin Wu; Dan Hao; Shing-Chi Cheung,1-11,11,https://doi.org/10.1145/3180155.3180233,
 ICSE,2018,conf/icse/icse2018,Software repair I,Towards practical program repair with on-demand candidate generation.,Jinru Hua; Mengshi Zhang; Kaiyuan Wang; Sarfraz Khurshid,12-23,12,https://doi.org/10.1145/3180155.3180245,
 ICSE,2018,conf/icse/icse2018,Software repair I,A correlation study between automated program repair and test-suite metrics.,Jooyong Yi; Shin Hwei Tan; Sergey Mechtaev; Marcel Böhme; Abhik Roychoudhury,24,1,https://doi.org/10.1145/3180155.3182517,
@@ -483,7 +415,7 @@ ICSE,2018,conf/icse/icse2018,"Security, privacy and trust II","The good, the bad
 ICSE,2018,conf/icse/icse2018,"Security, privacy and trust II","Lightweight, obfuscation-resilient detection and family identification of Android malware.",Joshua Garcia; Mahmoud Hammad; Sam Malek,497,1,https://doi.org/10.1145/3180155.3182551,
 ICSE,2018,conf/icse/icse2018,"Security, privacy and trust II",Are vulnerabilities discovered and resolved like other defects?,Patrick J. Morrison; Rahul Pandita; Xusheng Xiao; Ram Chillarege; Laurie Williams,498,1,https://doi.org/10.1145/3180155.3182553,
 ICSE,2018,conf/icse/icse2018,Communities and ecosystems,How modern news aggregators help development communities shape and share knowledge.,Maurício Finavaro Aniche; Christoph Treude; Igor Steinmacher; Igor Wiese; Gustavo Pinto; Margaret-Anne D. Storey; Marco Aurélio Gerosa,499-510,12,https://doi.org/10.1145/3180155.3180180,
-ICSE,2018,conf/icse/icse2018,Communities and ecosystems,Adding sparkle to social coding: an empirical study of repository badges in the ,Asher Trockman; Shurui Zhou; Christian Kästner; Bogdan Vasilescu,511-522,12,https://doi.org/10.1145/3180155.3180209,
+ICSE,2018,conf/icse/icse2018,Communities and ecosystems,Adding sparkle to social coding: an empirical study of repository badges in the npm ecosystem.,Asher Trockman; Shurui Zhou; Christian Kästner; Bogdan Vasilescu,511-522,12,https://doi.org/10.1145/3180155.3180209,
 ICSE,2018,conf/icse/icse2018,Communities and ecosystems,"""Was my contribution fairly reviewed?"": a framework to study the perception of fairness in modern code reviews.",Daniel M. Germán; Gregorio Robles; Germán Poo-Caamaño; Xin Yang; Hajimu Iida; Katsuro Inoue,523-534,12,https://doi.org/10.1145/3180155.3180217,
 ICSE,2018,conf/icse/icse2018,Communities and ecosystems,Collaborative model-driven software engineering: a classification framework and a research map.,Davide Di Ruscio; Mirco Franzago; Henry Muccini; Ivano Malavolta,535,1,https://doi.org/10.1145/3180155.3182543,
 ICSE,2018,conf/icse/icse2018,Testing I,ChangeLocator: locate crash-inducing changes based on crash reports.,Rongxin Wu; Ming Wen; Shing-Chi Cheung; Hongyu Zhang,536,1,https://doi.org/10.1145/3180155.3182516,
@@ -519,7 +451,7 @@ ICSE,2018,conf/icse/icse2018,Software comprehension,Do you remember this source 
 ICSE,2018,conf/icse/icse2018,Software comprehension,Inferring hierarchical motifs from execution traces.,Saba Alimadadi; Ali Mesbah; Karthik Pattabiraman,776-787,12,https://doi.org/10.1145/3180155.3180216,
 ICSE,2018,conf/icse/icse2018,Software comprehension,A comparison of program comprehension strategies by blind and sighted programmers.,Ameer Armaly; Paige Rodeghero; Collin McMillan,788,1,https://doi.org/10.1145/3180155.3182544,
 ICSE,2018,conf/icse/icse2018,Performance and maintenance,Identifying patch correctness in test-based program repair.,Yingfei Xiong; Xinyuan Liu; Muhan Zeng; Lu Zhang; Gang Huang,789-799,11,https://doi.org/10.1145/3180155.3180182,
-ICSE,2018,conf/icse/icse2018,Performance and maintenance,How ,Junwen Yang; Pranav Subramaniam; Shan Lu; Cong Yan; Alvin Cheung,800-810,11,https://doi.org/10.1145/3180155.3180194,
+ICSE,2018,conf/icse/icse2018,Performance and maintenance,How not to structure your database-backed web applications: a study of performance bugs in the wild.,Junwen Yang; Pranav Subramaniam; Shan Lu; Cong Yan; Alvin Cheung,800-810,11,https://doi.org/10.1145/3180155.3180194,
 ICSE,2018,conf/icse/icse2018,Performance and maintenance,Speedoo: prioritizing performance optimization opportunities.,Zhifei Chen; Bihuan Chen; Lu Xiao; Xiao Wang; Lin Chen; Yang Liu; Baowen Xu,811-821,11,https://doi.org/10.1145/3180155.3180229,
 ICSE,2018,conf/icse/icse2018,Performance and maintenance,Empirical study on the discrepancy between performance testing results from virtual and physical environments.,Muhammad Moiz Arif; Weiyi Shang; Emad Shihab,822,1,https://doi.org/10.1145/3180155.3182527,
 ICSE,2018,conf/icse/icse2018,Requirements and recommender systems,The evolution of requirements practices in software startups.,Catarina Gralha; Daniela E. Damian; Anthony I. Wasserman; Miguel Goulão; João Araújo,823-833,11,https://doi.org/10.1145/3180155.3180158,
@@ -558,9 +490,10 @@ ICSE,2018,conf/icse/icse2018,Software evolution and maintenance II,CCAligner: a 
 ICSE,2018,conf/icse/icse2018,Software evolution and maintenance II,HireBuild: an automatic approach to history-driven repair of build scripts.,Foyzul Hassan; Xiaoyin Wang,1078-1089,12,https://doi.org/10.1145/3180155.3180181,
 ICSE,2018,conf/icse/icse2018,Software evolution and maintenance II,The road to live programming: insights from the practice.,Juraj Kubelka; Romain Robbes; Alexandre Bergel,1090-1101,12,https://doi.org/10.1145/3180155.3180200,
 ICSE,2018,conf/icse/icse2018,Software evolution and maintenance II,Assessing the threat of untracked changes in software evolution.,André C. Hora; Danilo Silva; Marco Tulio Valente; Romain Robbes,1102-1113,12,https://doi.org/10.1145/3180155.3180212,
-ICSE,2018,conf/icse/icse2018,Models and modeling II,Programming not only by example.,Hila Peleg; Sharon Shoham; Eran Yahav,1114-1124,11,https://doi.org/10.1145/3180155.3180189,
-ICSE,2018,conf/icse/icse2018,Models and modeling II,Goal-conflict likelihood assessment based on model counting.,Renzo Degiovanni; Pablo F. Castro; Marcelo Arroyo; Marcelo Ruiz; Nazareno Aguirre; Marcelo F. Frias,1125-1135,11,https://doi.org/10.1145/3180155.3180261,
-ICSE,2018,conf/icse/icse2018,Models and modeling II," typing for model-driven engineering: concepts, analysis, and applications.",Juan de Lara; Esther Guerra,1136,1,https://doi.org/10.1145/3180155.3182545,
+ICSE,2018,conf/icse/icse2018,Models and modeling II,Programming not only by example.,Hila Peleg; Sharon Shoham; Eran Yahav,1114-1124,11,https://doi.org/10.1145/3180155.3180189,issue_last_page
+ICSE,2018,conf/icse/icse2018,Search-based software engineering II,Search-based test data generation for SQL queries.,Jeroen Castelein; Maurício Finavaro Aniche; Mozhan Soltani; Annibale Panichella; Arie van Deursen,1120-1230,111,https://doi.org/10.1145/3180155.3180202,issue_first_page;issue_last_page
+ICSE,2018,conf/icse/icse2018,Models and modeling II,Goal-conflict likelihood assessment based on model counting.,Renzo Degiovanni; Pablo F. Castro; Marcelo Arroyo; Marcelo Ruiz; Nazareno Aguirre; Marcelo F. Frias,1125-1135,11,https://doi.org/10.1145/3180155.3180261,issue_first_page
+ICSE,2018,conf/icse/icse2018,Models and modeling II,"A posteriori typing for model-driven engineering: concepts, analysis, and applications.",Juan de Lara; Esther Guerra,1136,1,https://doi.org/10.1145/3180155.3182545,
 ICSE,2018,conf/icse/icse2018,Models and modeling II,A static verification framework for message passing in Go using behavioural types.,Julien Lange; Nicholas Ng; Bernardo Toninho; Nobuko Yoshida,1137-1148,12,https://doi.org/10.1145/3180155.3180157,
 ICSE,2018,conf/icse/icse2018,Inference and invariants,Inferring and asserting distributed system invariants.,Stewart Grant; Hendrik Cech; Ivan Beschastnikh,1149-1159,11,https://doi.org/10.1145/3180155.3180199,
 ICSE,2018,conf/icse/icse2018,Inference and invariants,DroidStar: callback typestates for Android classes.,Arjun Radhakrishna; Nicholas V. Lewchenko; Shawn Meier; Sergio Mover; Krishna Chaitanya Sripada; Damien Zufferey; Bor-Yuh Evan Chang; Pavol Cerný,1160-1170,11,https://doi.org/10.1145/3180155.3180232,
@@ -570,8 +503,7 @@ ICSE,2018,conf/icse/icse2018,Surveys and reviews,Challenges and pitfalls on surv
 ICSE,2018,conf/icse/icse2018,Surveys and reviews,Statistical errors in software engineering experiments: a preliminary literature review.,Rolando P. Reyes; Oscar Dieste; Efraín R. Fonseca C.; Natalia Juristo,1195-1206,12,https://doi.org/10.1145/3180155.3180161,
 ICSE,2018,conf/icse/icse2018,Surveys and reviews,Synthesizing qualitative research in software engineering: a critical review.,Xin Huang; He Zhang; Xin Zhou; Muhammad Ali Babar; Song Yang,1207-1218,12,https://doi.org/10.1145/3180155.3180235,
 ICSE,2018,conf/icse/icse2018,Search-based software engineering II,Automatic software repair: a survey.,Luca Gazzola; Daniela Micucci; Leonardo Mariani,1219,1,https://doi.org/10.1145/3180155.3182526,issue_last_page
-ICSE,2018,conf/icse/icse2018,Search-based software engineering II,Search-based test data generation for SQL queries.,Jeroen Castelein; Maurício Finavaro Aniche; Mozhan Soltani; Annibale Panichella; Arie van Deursen,1230,1,https://doi.org/10.1145/3180155.3180202,issue_first_page
-ICSE,2018,conf/icse/icse2018,Search-based software engineering II,Multi-objective integer programming approaches for solving optimal feature selection problem: a new perspective on multi-objective optimization problems in SBSE.,Yinxing Xue; Yan-Fu Li,1231-1242,12,https://doi.org/10.1145/3180155.3180257,
+ICSE,2018,conf/icse/icse2018,Search-based software engineering II,Multi-objective integer programming approaches for solving optimal feature selection problem: a new perspective on multi-objective optimization problems in SBSE.,Yinxing Xue; Yan-Fu Li,1231-1242,12,https://doi.org/10.1145/3180155.3180257,issue_first_page
 ICSE,2018,conf/icse/icse2018,Search-based software engineering II,Automated refactoring of OCL constraints with search.,Hong Lu; Shuai Wang; Tao Yue; Shaukat Ali; Jan F. Nygård,1243,1,https://doi.org/10.1145/3180155.3182546,
 ICSE,2018,conf/icse/icse2018,Search-based software engineering II,Automatically generating search heuristics for concolic testing.,Sooyoung Cha; Seongjoon Hong; Junhee Lee; Hakjoo Oh,1244-1254,11,https://doi.org/10.1145/3180155.3180166,
 TSE,2014,journals/tse/tse40,"Volume 40, Number 1, January 2014",Signing Off: The State of the Journal.,Bashar Nuseibeh,1-3,3,https://doi.org/10.1109/TSE.2014.2298171,
@@ -712,13 +644,13 @@ TSE,2016,journals/tse/tse42,"Volume 42, Number 2, February 2016",GoPrime: A Full
 TSE,2016,journals/tse/tse42,"Volume 42, Number 2, February 2016",Probabilistic Model Checking of Regenerative Concurrent Systems.,Marco Paolieri; András Horváth; Enrico Vicario,153-169,17,https://doi.org/10.1109/TSE.2015.2468717,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 2, February 2016",SITAR: GUI Test Script Repair.,Zebao Gao; Zhenyu Chen; Yunxiao Zou; Atif M. Memon,170-186,17,https://doi.org/10.1109/TSE.2015.2454510,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 2, February 2016",Using Reduced Execution Flow Graph to Identify Library Functions in Binary Code.,Jing Qiu; Xiaohong Su; Peijun Ma,187-202,16,https://doi.org/10.1109/TSE.2015.2470241,
-TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Connecting and Serving the Software Engineering Community.,Matthew B. Dwyer; Eric Bodden; Brian Fitzgerald; Miryung Kim; Sunghun Kim; Andrew J. Ko; Emilia Mendes; Raffaela Mirandola; Ana Moreira; Forrest Shull; Stephen F. Siegel; Tao Xie; Charles Zhang,203-280,78,https://doi.org/10.1109/TSE.2016.2532379,issue_last_page
-TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016","Detecting, Tracing, and Monitoring Architectural Tactics in Code.",Mehdi Mirakhorli; Jane Cleland-Huang,205-220,16,https://doi.org/10.1109/TSE.2015.2479217,issue_first_page;issue_last_page
-TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Evaluating the Effects of Architectural Documentation: A Case Study of a Large Scale Open Source Project.,Rick Kazman; Dennis Goldenson; Ira Monarch; William Nichols; Giuseppe Valetto,220-260,41,https://doi.org/10.1109/TSE.2015.2465387,issue_first_page;issue_last_page
-TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Impact of Introducing Domain-Specific Modelling in Software Maintenance: An Industrial Case Study.,Niklas Mellegård; Adry Ferwerda; Kenneth Lind; Rogardt Heldal; Michel R. V. Chaudron,245-260,16,https://doi.org/10.1109/TSE.2015.2479221,issue_first_page;issue_last_page
-TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Metamorphic Testing for Software Quality Assessment: A Study of Search Engines.,Zhiquan Zhou; Shaowen Xiang; Tsong Yueh Chen,260-280,21,https://doi.org/10.1109/TSE.2015.2478001,issue_first_page;issue_last_page
-TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Verifying Synchronization for Atomicity Violation Fixing.,Qingkai Shi; Jeff Huang; Zhenyu Chen; Baowen Xu,280-296,17,https://doi.org/10.1109/TSE.2015.2477820,issue_first_page;issue_last_page
-TSE,2016,journals/tse/tse42,"Volume 42, Number 4, April 2016",A Multi-Site Joint Replication of a Design Patterns Experiment Using Moderator Variables to Generalize across Contexts.,Jonathan L. Krein; Lutz Prechelt; Natalia Juristo; Aziz Nanthaamornphong; Jeffrey C. Carver; Sira Vegas; Charles D. Knutson; Kevin D. Seppi; Dennis L. Eggett,302-321,20,https://doi.org/10.1109/TSE.2015.2488625,issue_first_page
+TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Connecting and Serving the Software Engineering Community.,Matthew B. Dwyer; Eric Bodden; Brian Fitzgerald; Miryung Kim; Sunghun Kim; Andrew J. Ko; Emilia Mendes; Raffaela Mirandola; Ana Moreira; Forrest Shull; Stephen F. Siegel; Tao Xie; Charles Zhang,203-205,3,https://doi.org/10.1109/TSE.2016.2532379,
+TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016","Detecting, Tracing, and Monitoring Architectural Tactics in Code.",Mehdi Mirakhorli; Jane Cleland-Huang,206-221,16,https://doi.org/10.1109/TSE.2015.2479217,
+TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Evaluating the Effects of Architectural Documentation: A Case Study of a Large Scale Open Source Project.,Rick Kazman; Dennis Goldenson; Ira Monarch; William Nichols; Giuseppe Valetto,222-247,26,https://doi.org/10.1109/TSE.2015.2465387,
+TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Impact of Introducing Domain-Specific Modelling in Software Maintenance: An Industrial Case Study.,Niklas Mellegård; Adry Ferwerda; Kenneth Lind; Rogardt Heldal; Michel R. V. Chaudron,248-263,16,https://doi.org/10.1109/TSE.2015.2479221,
+TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Metamorphic Testing for Software Quality Assessment: A Study of Search Engines.,Zhiquan Zhou; Shaowen Xiang; Tsong Yueh Chen,264-284,21,https://doi.org/10.1109/TSE.2015.2478001,
+TSE,2016,journals/tse/tse42,"Volume 42, Number 3, March 2016",Verifying Synchronization for Atomicity Violation Fixing.,Qingkai Shi; Jeff Huang; Zhenyu Chen; Baowen Xu,285-301,17,https://doi.org/10.1109/TSE.2015.2477820,
+TSE,2016,journals/tse/tse42,"Volume 42, Number 4, April 2016",A Multi-Site Joint Replication of a Design Patterns Experiment Using Moderator Variables to Generalize across Contexts.,Jonathan L. Krein; Lutz Prechelt; Natalia Juristo; Aziz Nanthaamornphong; Jeffrey C. Carver; Sira Vegas; Charles D. Knutson; Kevin D. Seppi; Dennis L. Eggett,302-321,20,https://doi.org/10.1109/TSE.2015.2488625,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 4, April 2016",An Approach to Checking Consistency between UML Class Model and Its Java Implementation.,Hector Miguel Chavez; Wuwei Shen; Robert B. France; Benjamin A. Mechling; Guangyuan Li,322-344,23,https://doi.org/10.1109/TSE.2015.2488645,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 4, April 2016",A Probabilistic Analysis of the Efficiency of Automated Software Testing.,Marcel Böhme; Soumya Paul,345-360,16,https://doi.org/10.1109/TSE.2015.2487274,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 4, April 2016",Black-Box String Test Case Generation through a Multi-Objective Optimization.,Ali Shahbazi; James Miller,361-378,18,https://doi.org/10.1109/TSE.2015.2487958,
@@ -727,8 +659,8 @@ TSE,2016,journals/tse/tse42,"Volume 42, Number 5, May 2016",Bidirectional Symbol
 TSE,2016,journals/tse/tse42,"Volume 42, Number 5, May 2016",Effect of Domain Knowledge on Elicitation Effectiveness: An Internally Replicated Controlled Experiment.,Alejandrina M. Aranda; Oscar Dieste; Natalia Juristo,427-451,25,https://doi.org/10.1109/TSE.2015.2494588,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 5, May 2016",RELAI Testing: A Technique to Assess and Improve Software Reliability.,Domenico Cotroneo; Roberto Pietrantuono; Stefano Russo,452-475,24,https://doi.org/10.1109/TSE.2015.2491931,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 5, May 2016",Targeted Scrum: Applying Mission Command to Agile Software Development.,David P. Harvie; Arvin Agah,476-489,14,https://doi.org/10.1109/TSE.2015.2489654,
-TSE,2016,journals/tse/tse42,"Volume 42, Number 5, May 2016",To Be Optimal or Not in Test-Case Prioritization.,Dan Hao; Lu Zhang; Lei Zang; Yanbo Wang; Xingxia Wu; Tao Xie,490-505,16,https://doi.org/10.1109/TSE.2015.2496939,issue_last_page
-TSE,2016,journals/tse/tse42,"Volume 42, Number 6, June 2016","A Two-Component Language for Adaptation: Design, Semantics and Program Analysis.",Pierpaolo Degano; Gian Luigi Ferrari; Letterio Galletta,505-529,25,https://doi.org/10.1109/TSE.2015.2496941,issue_first_page
+TSE,2016,journals/tse/tse42,"Volume 42, Number 5, May 2016",To Be Optimal or Not in Test-Case Prioritization.,Dan Hao; Lu Zhang; Lei Zang; Yanbo Wang; Xingxia Wu; Tao Xie,490-504,15,https://doi.org/10.1109/TSE.2015.2496939,
+TSE,2016,journals/tse/tse42,"Volume 42, Number 6, June 2016","A Two-Component Language for Adaptation: Design, Semantics and Program Analysis.",Pierpaolo Degano; Gian Luigi Ferrari; Letterio Galletta,505-529,25,https://doi.org/10.1109/TSE.2015.2496941,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 6, June 2016",Automatically Recommending Peer Reviewers in Modern Code Review.,Motahareh Bahrami Zanjani; Huzefa H. Kagdi; Christian Bird,530-543,14,https://doi.org/10.1109/TSE.2015.2500238,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 6, June 2016",Dynamic and Automatic Feedback-Based Threshold Adaptation for Code Smell Detection.,Hui Liu; Qiurong Liu; Zhendong Niu; Yang Liu,544-558,15,https://doi.org/10.1109/TSE.2015.2503740,
 TSE,2016,journals/tse/tse42,"Volume 42, Number 6, June 2016",Enforcing Exception Handling Policies with a Domain-Specific Language.,Eiji Adachi Barbosa; Alessandro F. Garcia; Martin P. Robillard; Benjamin Jakobus,559-584,26,https://doi.org/10.1109/TSE.2015.2506164,
@@ -1596,9 +1528,9 @@ TOSEM,2016,journals/tosem/tosem25,"Volume 25, Number 3, August 2016",Hierarchica
 TOSEM,2016,journals/tosem/tosem25,"Volume 25, Number 4, May 2017",Impact-Driven Process Model Repair.,Artem Polyvyanyy; Wil M. P. van der Aalst; Arthur H. M. ter Hofstede; Moe Thandar Wynn,28:1-28:60,60,https://doi.org/10.1145/2980764,
 TOSEM,2016,journals/tosem/tosem25,"Volume 25, Number 4, May 2017",Generating API Call Rules from Version History and Stack Overflow Posts.,Shams Azad; Peter C. Rigby; Latifa Guerrouj,29:1-29:22,22,https://doi.org/10.1145/2990497,
 TOSEM,2016,journals/tosem/tosem25,"Volume 25, Number 4, May 2017",Dynamic Dependence Summaries.,Vijay Krishna Palepu; Guoqing (Harry) Xu; James A. Jones,30:1-30:41,41,https://doi.org/10.1145/2968444,
-TOSEM,2016,journals/tosem/tosem25,"Volume 25, Number 4, May 2017"," Typing for Model-Driven Engineering: Concepts, Analysis, and Applications.",Juan de Lara; Esther Guerra,31:1-31:60,60,https://doi.org/10.1145/3063384,
-TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 2, October 2017",Editorial.,David S. Rosenblum,,0,https://doi.org/10.1145/3136621,empty_page_range
-TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 1, July 2017",Augmenting Field Data for Testing Systems Subject to Incremental Requirements Changes.,Daniel Di Nardo; Fabrizio Pastore; Lionel C. Briand,1:1-1:40,40,https://doi.org/10.1145/3053430,
+TOSEM,2016,journals/tosem/tosem25,"Volume 25, Number 4, May 2017","A Posteriori Typing for Model-Driven Engineering: Concepts, Analysis, and Applications.",Juan de Lara; Esther Guerra,31:1-31:60,60,https://doi.org/10.1145/3063384,
+TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 2, October 2017",Editorial.,David S. Rosenblum,6e:1-6e:2,-1,https://doi.org/10.1145/3136621,issue_article_number
+TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 1, July 2017",Augmenting Field Data for Testing Systems Subject to Incremental Requirements Changes.,Daniel Di Nardo; Fabrizio Pastore; Lionel C. Briand,1:1-1:40,40,https://doi.org/10.1145/3053430,issue_article_number
 TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 1, July 2017",Ensuring the Consistency of Adaptation through Inter- and Intra-Component Dependency Analysis.,Alireza Sadeghi; Naeem Esfahani; Sam Malek,2:1-2:27,27,https://doi.org/10.1145/3063385,
 TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 1, July 2017",Predicting Query Quality for Applications of Text Retrieval to Software Engineering Tasks.,Chris Mills; Gabriele Bavota; Sonia Haiduc; Rocco Oliveto; Andrian Marcus; Andrea De Lucia,3:1-3:45,45,https://doi.org/10.1145/3078841,
 TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 1, July 2017",Human Competitiveness of Genetic Programming in Spectrum-Based Fault Localisation: Theoretical and Empirical Analysis.,Shin Yoo; Xiaoyuan Xie; Fei-Ching Kuo; Tsong Yueh Chen; Mark Harman,4:1-4:30,30,https://doi.org/10.1145/3078840,
@@ -1612,8 +1544,8 @@ TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 3, January 2018","Lightweig
 TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 4, February 2018",Understanding and Combating Memory Bloat in Managed Data-Intensive Systems.,Khanh Nguyen; Kai Wang; Yingyi Bu; Lu Fang; Guoqing (Harry) Xu,12:1-12:41,41,https://doi.org/10.1145/3162626,
 TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 4, February 2018",Detecting the Behavior of Design Patterns through Model Checking and Dynamic Analysis.,Andrea De Lucia; Vincenzo Deufemia; Carmine Gravino; Michele Risi,13:1-13:41,41,https://doi.org/10.1145/3176643,
 TOSEM,2017,journals/tosem/tosem26,"Volume 26, Number 4, February 2018",Configuring Software Product Lines by Combining Many-Objective Optimization and SAT Solvers.,Yi Xiang; Yuren Zhou; Zibin Zheng; Miqing Li,14:1-14:46,46,https://doi.org/10.1145/3176644,
-TOSEM,2018,journals/tosem/tosem27,"Volume 27, Number 1, June 2018",Editorial.,David S. Rosenblum,,0,https://doi.org/10.1145/3205909,empty_page_range
-TOSEM,2018,journals/tosem/tosem27,"Volume 27, Number 1, June 2018",How Far We Have Progressed in the Journey? An Examination of Cross-Project Defect Prediction.,Yuming Zhou; Yibiao Yang; Hongmin Lu; Lin Chen; Yanhui Li; Yangyang Zhao; Junyan Qian; Baowen Xu,1:1-1:51,51,https://doi.org/10.1145/3183339,
+TOSEM,2018,journals/tosem/tosem27,"Volume 27, Number 1, June 2018",Editorial.,David S. Rosenblum,1e:1-1e:2,-1,https://doi.org/10.1145/3205909,issue_article_number
+TOSEM,2018,journals/tosem/tosem27,"Volume 27, Number 1, June 2018",How Far We Have Progressed in the Journey? An Examination of Cross-Project Defect Prediction.,Yuming Zhou; Yibiao Yang; Hongmin Lu; Lin Chen; Yanhui Li; Yangyang Zhao; Junyan Qian; Baowen Xu,1:1-1:51,51,https://doi.org/10.1145/3183339,issue_article_number
 TOSEM,2018,journals/tosem/tosem27,"Volume 27, Number 1, June 2018",Assessing the Refactoring of Brain Methods.,Santiago A. Vidal; Iñaki berra; Santiago Zulliani; Claudia Marcos; J. Andrés Díaz Pace,2:1-2:43,43,https://doi.org/10.1145/3191314,
 TOSEM,2018,journals/tosem/tosem27,"Volume 27, Number 1, June 2018",An Empirical Study of Meta- and Hyper-Heuristic Search for Multi-Objective Release Planning.,Yuanyuan Zhang; Mark Harman; Gabriela Ochoa; Guenther Ruhe; Sjaak Brinkkemper,3:1-3:32,32,https://doi.org/10.1145/3196831,
 TOSEM,2018,journals/tosem/tosem27,"Volume 27, Number 1, June 2018",Inferring Extended Probabilistic Finite-State Automaton Models from Software Executions.,Seyedeh Sepideh Emam; James Miller,4:1-4:39,39,https://doi.org/10.1145/3196883,
