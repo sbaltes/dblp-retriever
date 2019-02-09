@@ -69,7 +69,13 @@ class Venue(object):
 
                         ee = item.xpath('nav[@class="publ"]/ul/li[@class="drop-down"]/div[@class="head"]/a/@href')
                         if len(ee) > 0:
-                            ee = str(ee[0])
+                            # select DOI link if available, first link otherwise
+                            doi_link = [link for link in ee if "doi.org" in link]
+                            if len(doi_link) > 0:
+                                ee = str(doi_link[0])
+                            else:
+                                ee = str(ee[0])
+
                         else:
                             ee = ""
 
