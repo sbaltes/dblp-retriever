@@ -43,3 +43,4 @@ __pycache__/
 #output/
 *.log
 env/
+venv/
