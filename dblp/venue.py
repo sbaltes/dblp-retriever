@@ -55,13 +55,13 @@ class Venue(object):
                             #     year = ""
                             continue
 
-                        title = item.xpath('div[@class="data"]/span[@itemprop="name"]/descendant-or-self::*/text()')
+                        title = item.xpath('cite[@class="data"]/span[@itemprop="name"]/descendant-or-self::*/text()')
                         if len(title) > 0:
                             title = str(" ".join(str(element).strip() for element in title))
                         else:
                             title = ""
 
-                        pages = item.xpath('div[@class="data"]/span[@itemprop="pagination"]/text()')
+                        pages = item.xpath('cite[@class="data"]/span[@itemprop="pagination"]/text()')
                         if len(pages) > 0:
                             pages = str(pages[0])
                         else:
@@ -79,7 +79,7 @@ class Venue(object):
                         else:
                             ee = ""
 
-                        authors = item.xpath('div[@class="data"]/span[@itemprop="author"]/a/span[@itemprop="name"]'
+                        authors = item.xpath('cite[@class="data"]/span[@itemprop="author"]/a/span[@itemprop="name"]'
                                              '/text()')
                         if len(authors) == 1:
                             authors = str(authors[0])
