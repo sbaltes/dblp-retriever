@@ -48,20 +48,21 @@ class Venue(object):
                     elif item.tag == "li":
                         if current_heading == "":
                             # the following only works for conferences, not for journals
-                            # year = item.xpath('div[@class="data"]/span[@itemprop="datePublished"]/text()')
+                            # year = item.xpath('div[contains(@class, "data")]/span[@itemprop="datePublished"]/text()')
                             # if len(year) > 0:
                             #     year = str(year[0])
                             # else:
                             #     year = ""
                             continue
 
-                        title = item.xpath('cite[@class="data"]/span[@itemprop="name"]/descendant-or-self::*/text()')
+                        title = item.xpath('cite[contains(@class, "data")]/span[@itemprop="name"]'
+                                           '/descendant-or-self::*/text()')
                         if len(title) > 0:
                             title = str(" ".join(str(element).strip() for element in title))
                         else:
                             title = ""
 
-                        pages = item.xpath('cite[@class="data"]/span[@itemprop="pagination"]/text()')
+                        pages = item.xpath('cite[contains(@class, "data")]/span[@itemprop="pagination"]/text()')
                         if len(pages) > 0:
                             pages = str(pages[0])
                         else:
@@ -79,8 +80,8 @@ class Venue(object):
                         else:
                             ee = ""
 
-                        authors = item.xpath('cite[@class="data"]/span[@itemprop="author"]/a/span[@itemprop="name"]'
-                                             '/text()')
+                        authors = item.xpath('cite[contains(@class, "data")]/span[@itemprop="author"]/a'
+                                             '/span[@itemprop="name"]/text()')
                         if len(authors) == 1:
                             authors = str(authors[0])
                         else:
